@@ -1,13 +1,13 @@
 ﻿@model GerenciadorDeBiblioteca.Models.TipePerson
 
 @{
-    TempData["Title"] = "Details";
+    TempData["Title"] = "Detalhes Tipo Pessoa";
 }
 
-<h1>Details</h1>
+<h1>Detalhes</h1>
 
 <div>
-    <h4>TipePerson</h4>
+    <h4>Tipo Pessoa</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -31,6 +31,6 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Editar</a> |
+    <a asp-action="Index">Voltar para a Lista</a>
 </div>

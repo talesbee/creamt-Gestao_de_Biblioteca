@@ -1,14 +1,14 @@
 ﻿@model GerenciadorDeBiblioteca.Models.BookState
 
 @{
-    TempData["Title"] = "Delete";
+    TempData["Title"] = "Deletar uma Situação";
 }
 
-<h1>Delete</h1>
+<h1>Deletar</h1>
 
-<h3>Are you sure you want to delete this?</h3>
+<h3>Deseja realmente deletar esse cadastro?</h3>
 <div>
-    <h4>BookState</h4>
+    <h4>Situação do Livro</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -25,9 +25,9 @@
         </dd>
     </dl>
     
-    <form asp-action="Delete">
+<form asp-action="Delete">
         <input type="hidden" asp-for="Id" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
+        <input type="submit" value="Deletar" class="btn btn-danger" /> |
+        <a asp-action="Index">Voltar para a Lista</a>
     </form>
 </div>
