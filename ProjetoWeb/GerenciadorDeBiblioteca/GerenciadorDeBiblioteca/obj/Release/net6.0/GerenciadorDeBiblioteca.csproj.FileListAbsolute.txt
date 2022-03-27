@@ -1,3 +1,5 @@
+C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\Microsoft.CodeAnalysis.Features.dll
 C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\obj\Release\net6.0\GerenciadorDeBiblioteca.csproj.AssemblyReference.cache
 C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\obj\Release\net6.0\GerenciadorDeBiblioteca.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\obj\Release\net6.0\GerenciadorDeBiblioteca.AssemblyInfoInputs.cache
@@ -17,16 +19,20 @@ C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\G
 C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\Humanizer.dll
 C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\MessagePack.dll
 C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\MessagePack.Annotations.dll
+C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\System.Web.Mvc.dll
+C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\System.Web.Razor.dll
+C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\System.Web.Helpers.dll
+C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\System.Web.WebPages.Deployment.dll
+C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\System.Web.WebPages.Razor.dll
+C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\System.Web.WebPages.dll
 C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\Microsoft.Build.Locator.dll
 C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
 C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\Microsoft.CodeAnalysis.dll
-C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\Microsoft.CodeAnalysis.CSharp.dll
 C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
 C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
 C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\Microsoft.CodeAnalysis.Features.dll
 C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\Microsoft.CodeAnalysis.Razor.dll
 C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\Microsoft.CodeAnalysis.Scripting.dll
 C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
@@ -57,6 +63,7 @@ C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\G
 C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
 C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\Microsoft.Web.Infrastructure.dll
 C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\Newtonsoft.Json.dll
 C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\NuGet.Common.dll
@@ -261,10 +268,3 @@ C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\G
 C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\obj\Release\net6.0\GerenciadorDeBiblioteca.pdb
 C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\obj\Release\net6.0\GerenciadorDeBiblioteca.genruntimeconfig.cache
 C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\obj\Release\net6.0\ref\GerenciadorDeBiblioteca.dll
-C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\System.Web.Mvc.dll
-C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\System.Web.Razor.dll
-C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\System.Web.Helpers.dll
-C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\System.Web.WebPages.Deployment.dll
-C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\System.Web.WebPages.Razor.dll
-C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\System.Web.WebPages.dll
-C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\bin\Release\net6.0\Microsoft.Web.Infrastructure.dll

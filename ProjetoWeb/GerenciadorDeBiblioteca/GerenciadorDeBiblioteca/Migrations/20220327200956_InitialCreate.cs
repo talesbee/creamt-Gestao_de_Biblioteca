@@ -63,11 +63,11 @@ namespace GerenciadorDeBiblioteca.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    IdBook = table.Column<int>(type: "int", nullable: false),
                     IdPerson = table.Column<int>(type: "int", nullable: false),
+                    IdBook = table.Column<int>(type: "int", nullable: false),
                     IdResponsible = table.Column<int>(type: "int", nullable: false),
                     DateMoviment = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    DateDeadline = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    DateDeadline = table.Column<DateTime>(type: "datetime2", nullable: true),
                     DateMaxDeadline = table.Column<DateTime>(type: "datetime2", nullable: false),
                     IdState = table.Column<int>(type: "int", nullable: false)
                 },

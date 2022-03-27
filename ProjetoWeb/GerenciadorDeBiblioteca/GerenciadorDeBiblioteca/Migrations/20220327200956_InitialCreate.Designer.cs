@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GerenciadorDeBiblioteca.Migrations
 {
     [DbContext(typeof(GerenciadorDeBibliotecaContext))]
-    [Migration("20220327011053_InitialCreate")]
+    [Migration("20220327200956_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -110,7 +110,7 @@ namespace GerenciadorDeBiblioteca.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<DateTime>("DateDeadline")
+                    b.Property<DateTime?>("DateDeadline")
                         .HasColumnType("datetime2");
 
                     b.Property<DateTime>("DateMaxDeadline")
