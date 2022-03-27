@@ -1,0 +1,37 @@
+﻿@model GerenciadorDeBiblioteca.Models.MovimentBookList
+
+@{
+    TempData["Title"] = "Create";
+}
+
+<h1>Adicionar Livros a movimentação</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="IdBook" class="control-label"></label>
+                <input asp-for="IdBook" class="form-control" />
+                <span asp-validation-for="IdBook" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdMoviment" class="control-label"></label>
+                <input asp-for="IdMoviment" class="form-control" />
+                <span asp-validation-for="IdMoviment" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

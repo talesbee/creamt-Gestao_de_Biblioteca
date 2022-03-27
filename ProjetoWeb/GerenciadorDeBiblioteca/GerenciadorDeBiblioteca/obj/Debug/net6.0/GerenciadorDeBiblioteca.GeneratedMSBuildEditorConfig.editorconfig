@@ -1,0 +1,228 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = GerenciadorDeBiblioteca
+build_property.RootNamespace = GerenciadorDeBiblioteca
+build_property.ProjectDir = C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\tales\OneDrive\Documentos\CREA\creamt-Gestao_de_Biblioteca\ProjetoWeb\GerenciadorDeBiblioteca\GerenciadorDeBiblioteca
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/BookStates/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1N0YXRlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/BookStates/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1N0YXRlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/BookStates/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1N0YXRlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/BookStates/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1N0YXRlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/BookStates/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1N0YXRlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/Books/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/Books/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/Books/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/Books/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/Books/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/Categories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/Categories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/Categories/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/Categories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/MovimentBookLists/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aW1lbnRCb29rTGlzdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/MovimentBookLists/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aW1lbnRCb29rTGlzdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/MovimentBookLists/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aW1lbnRCb29rTGlzdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/MovimentBookLists/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aW1lbnRCb29rTGlzdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/MovimentBookLists/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aW1lbnRCb29rTGlzdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/MovimentStates/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aW1lbnRTdGF0ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/MovimentStates/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aW1lbnRTdGF0ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/MovimentStates/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aW1lbnRTdGF0ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/MovimentStates/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aW1lbnRTdGF0ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/MovimentStates/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aW1lbnRTdGF0ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/Moviments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aW1lbnRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/Moviments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aW1lbnRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/Moviments/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aW1lbnRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/Moviments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aW1lbnRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/Moviments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aW1lbnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/People/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVvcGxlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/People/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVvcGxlXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/People/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVvcGxlXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/People/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVvcGxlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/People/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVvcGxlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/Records/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjb3Jkc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/TipePersons/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwZVBlcnNvbnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/TipePersons/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwZVBlcnNvbnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/TipePersons/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwZVBlcnNvbnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/TipePersons/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwZVBlcnNvbnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/TipePersons/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwZVBlcnNvbnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/Users/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/Users/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/Users/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tales/OneDrive/Documentos/CREA/creamt-Gestao_de_Biblioteca/ProjetoWeb/GerenciadorDeBiblioteca/GerenciadorDeBiblioteca/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-shvohwkvcy
