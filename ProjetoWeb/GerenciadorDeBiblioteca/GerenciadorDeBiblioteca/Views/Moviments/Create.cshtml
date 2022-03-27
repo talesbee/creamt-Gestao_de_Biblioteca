@@ -1,0 +1,58 @@
+﻿@model GerenciadorDeBiblioteca.Models.Moviment
+
+@{
+    TempData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Moviment</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="IdPerson" class="control-label"></label>
+                <input asp-for="IdPerson" class="form-control" />
+                <span asp-validation-for="IdPerson" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdResponsible" class="control-label"></label>
+                <input asp-for="IdResponsible" class="form-control" />
+                <span asp-validation-for="IdResponsible" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateMoviment" class="control-label"></label>
+                <input asp-for="DateMoviment" class="form-control" />
+                <span asp-validation-for="DateMoviment" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateDeadline" class="control-label"></label>
+                <input asp-for="DateDeadline" class="form-control" />
+                <span asp-validation-for="DateDeadline" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateMaxDeadline" class="control-label"></label>
+                <input asp-for="DateMaxDeadline" class="form-control" />
+                <span asp-validation-for="DateMaxDeadline" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdState" class="control-label"></label>
+                <input asp-for="IdState" class="form-control" />
+                <span asp-validation-for="IdState" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
