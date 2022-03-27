@@ -20,10 +20,35 @@ namespace GerenciadorDeBiblioteca.Controllers
             _context = context;
         }
 
+
+
+
+
+
         // GET: Books
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Book.ToListAsync());
+            BookView bookItem;
+            List<BookView> booklist = new ();
+            var books = await _context.Book.ToListAsync();
+            if (books.Any())
+            {
+                foreach (var book in books)
+                {
+                    bookItem = new();
+                    bookItem.Id = book.Id;
+                    bookItem.Title = book.Title;
+                    bookItem.IdCategory = _context.Category.Where(x => x.Id == book.IdCategory).FirstOrDefault().Name;
+                    bookItem.Year = book.Year;
+                    bookItem.ISBN = book.ISBN;
+                    bookItem.Edition = book.Edition;
+                    bookItem.IdAuthor = _context.Person.Where(x => x.Id == book.IdAuthor).FirstOrDefault().Name;
+                    bookItem.IdState = _context.BookState.Where(x => x.Id == book.IdState).FirstOrDefault().Name;
+                    bookItem.PublishingCompany = book.PublishingCompany;
+                    booklist.Add(bookItem);
+                }
+            }
+            return View(booklist);
         }
 
         // GET: Books/Details/5
@@ -41,12 +66,30 @@ namespace GerenciadorDeBiblioteca.Controllers
                 return NotFound();
             }
 
-            return View(book);
+            BookView bookItem;
+            
+            bookItem = new();
+            bookItem.Id = book.Id;
+            bookItem.Title = book.Title;
+            bookItem.IdCategory = _context.Category.Where(x => x.Id == book.IdCategory).FirstOrDefault().Name;
+            bookItem.Year = book.Year;
+            bookItem.ISBN = book.ISBN;
+            bookItem.Edition = book.Edition;
+            bookItem.IdAuthor = _context.Person.Where(x => x.Id == book.IdAuthor).FirstOrDefault().Name;
+            bookItem.IdState = _context.BookState.Where(x => x.Id == book.IdState).FirstOrDefault().Name;
+            bookItem.PublishingCompany = book.PublishingCompany;
+
+               
+
+            return View(bookItem);
         }
 
         // GET: Books/Create
         public IActionResult Create()
         {
+            ViewBag.People = _context.Person.ToList();
+            ViewBag.Category = _context.Category.ToList();
+            ViewBag.Sate = _context.BookState.ToList();
             return View();
         }
 
@@ -69,6 +112,9 @@ namespace GerenciadorDeBiblioteca.Controllers
         // GET: Books/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
+            ViewBag.People = _context.Person.ToList();
+            ViewBag.Category = _context.Category.ToList();
+            ViewBag.Sate = _context.BookState.ToList();
             if (id == null)
             {
                 return NotFound();
@@ -131,8 +177,19 @@ namespace GerenciadorDeBiblioteca.Controllers
             {
                 return NotFound();
             }
+            BookView bookItem;
 
-            return View(book);
+            bookItem = new();
+            bookItem.Id = book.Id;
+            bookItem.Title = book.Title;
+            bookItem.IdCategory = _context.Category.Where(x => x.Id == book.IdCategory).FirstOrDefault().Name;
+            bookItem.Year = book.Year;
+            bookItem.ISBN = book.ISBN;
+            bookItem.Edition = book.Edition;
+            bookItem.IdAuthor = _context.Person.Where(x => x.Id == book.IdAuthor).FirstOrDefault().Name;
+            bookItem.IdState = _context.BookState.Where(x => x.Id == book.IdState).FirstOrDefault().Name;
+            bookItem.PublishingCompany = book.PublishingCompany;
+            return View(bookItem);
         }
 
         // POST: Books/Delete/5

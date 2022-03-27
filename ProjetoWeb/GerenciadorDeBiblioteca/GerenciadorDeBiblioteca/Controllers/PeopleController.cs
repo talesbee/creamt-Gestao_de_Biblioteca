@@ -23,9 +23,32 @@ namespace GerenciadorDeBiblioteca.Controllers
         }
 
         // GET: People
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            PersonView personItem;
+            List<PersonView> personList = new();
+            var peoples = await _context.Person.ToListAsync();
+            if (peoples.Any())
+            {
+                foreach (var person in peoples)
+                {
+                    personItem = new();
+                    personItem.Id = person.Id;
+                    personItem.Name = person.Name;
+                    personItem.CPF = person.CPF;
+                    personItem.RG = person.RG;
+                    personItem.Address = person.Address;
+                    personItem.Email = person.Email;
+                    personItem.Phone = person.Phone;
+                    personItem.CellPhone = person.CellPhone;
+                    personItem.CellPhoneWhatsApp = person.CellPhoneWhatsApp;
+                    personItem.State = person.State;
+                    personItem.IdTipePerson = _context.TipePerson.Where(x => x.Id == person.IdTipePerson).FirstOrDefault().Name;
+                    personList.Add(personItem);
+                }
+            }
+            return View(personList);
+            
         }
 
  
@@ -43,13 +66,26 @@ namespace GerenciadorDeBiblioteca.Controllers
             {
                 return NotFound();
             }
-
-            return View(person);
+            PersonView personItem;
+            personItem = new();
+            personItem.Id = person.Id;
+            personItem.Name = person.Name;
+            personItem.CPF = person.CPF;
+            personItem.RG = person.RG;
+            personItem.Address = person.Address;
+            personItem.Email = person.Email;
+            personItem.Phone = person.Phone;
+            personItem.CellPhone = person.CellPhone;
+            personItem.CellPhoneWhatsApp = person.CellPhoneWhatsApp;
+            personItem.State = person.State;
+            personItem.IdTipePerson = _context.TipePerson.Where(x => x.Id == person.IdTipePerson).FirstOrDefault().Name;
+            return View(personItem);
         }
 
         // GET: People/Create
         public IActionResult Create()
         {
+            ViewBag.Tipe = _context.TipePerson.ToList();
             return View();
         }
 
@@ -76,7 +112,7 @@ namespace GerenciadorDeBiblioteca.Controllers
             {
                 return NotFound();
             }
-
+            ViewBag.Tipe = _context.TipePerson.ToList();
             var person = await _context.Person.FindAsync(id);
             if (person == null)
             {
@@ -134,8 +170,20 @@ namespace GerenciadorDeBiblioteca.Controllers
             {
                 return NotFound();
             }
-
-            return View(person);
+            PersonView personItem;
+            personItem = new();
+            personItem.Id = person.Id;
+            personItem.Name = person.Name;
+            personItem.CPF = person.CPF;
+            personItem.RG = person.RG;
+            personItem.Address = person.Address;
+            personItem.Email = person.Email;
+            personItem.Phone = person.Phone;
+            personItem.CellPhone = person.CellPhone;
+            personItem.CellPhoneWhatsApp = person.CellPhoneWhatsApp;
+            personItem.State = person.State;
+            personItem.IdTipePerson = _context.TipePerson.Where(x => x.Id == person.IdTipePerson).FirstOrDefault().Name;
+            return View(personItem);
         }
 
         // POST: People/Delete/5

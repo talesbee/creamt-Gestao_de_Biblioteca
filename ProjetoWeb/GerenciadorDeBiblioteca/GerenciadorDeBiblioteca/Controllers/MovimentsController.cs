@@ -27,40 +27,36 @@ namespace GerenciadorDeBiblioteca.Controllers
             
             List<MovimentView> movimentsView = new ();
             MovimentView movItem = new ();
-            
-            foreach (var mov in moviments)
+            if (moviments.Any())
             {
-                movItem.PersonName = _context.Person.Where(y => y.Id == mov.IdPerson).Select(x=>x.Name).ToString();
-                movItem.ResponsibleName = _context.Person.Where(y => y.Id == mov.IdResponsible).Select(x => x.Name).ToString();
-                if(mov.DateDeadline == null)
+                foreach (var mov in moviments)
                 {
-                    movItem.DateDeadline = mov.DateMaxDeadline;
-                    if (mov.DateMoviment > mov.DateMaxDeadline)
+                    movItem.Id = mov.Id;
+                    movItem.PersonName = _context.Person.Where(y => y.Id == mov.IdPerson).FirstOrDefault().Name;
+                    movItem.ResponsibleName = _context.Person.Where(y => y.Id == mov.IdResponsible).FirstOrDefault().Name;
+                    movItem.DataMoviment = mov.DateMoviment;
+                    if (mov.DateDeadline == null || mov.DateDeadline == new DateTime())
                     {
-                        movItem.Status = "Atrasado";
-                        
+                        movItem.DateDeadline = mov.DateMaxDeadline;
+                        if (mov.DateMoviment > mov.DateMaxDeadline)
+                        {
+                            movItem.Status = "Atrasado";
+
+                        }
+                        else
+                        {
+                            movItem.Status = "Emprestado";
+                        }
                     }
                     else
                     {
-                        movItem.Status = "Emprestado";
+                        movItem.DateDeadline = mov.DateDeadline;
+                        movItem.Status = "Devolvido";
                     }
+
+                    movimentsView.Add(movItem);
                 }
-                else
-                {
-                    movItem.DateDeadline = mov.DateDeadline;
-                    movItem.Status = "Devolvido";
-                }
-                var movBooks = _context.MovimentBookList.Where(x => x.IdMoviment == mov.Id).Select(y => y.IdBook);
-                foreach(var book in movBooks)
-                {
-                    MovimentBooks bookItem = new();
-                    bookItem.BookName = _context.Book.Where(z => z.Id == Convert.ToInt16(book)).Select(x => x.Title).ToString();
-                    movItem.Books.Add(bookItem);
-                }
-                
-                movimentsView.Add(movItem);
             }
-            
             return View(movimentsView);
         }
 
@@ -79,15 +75,17 @@ namespace GerenciadorDeBiblioteca.Controllers
                 return NotFound();
             }
             MovimentView movItem = new();
-            movItem.PersonName = _context.Person.Where(y => y.Id == moviment.IdPerson).Select(x => x.Name).ToString();
-            movItem.ResponsibleName = _context.Person.Where(y => y.Id == moviment.IdResponsible).Select(x => x.Name).ToString();
-            if (moviment.DateDeadline == null)
+            movItem.Id = moviment.Id;
+            movItem.PersonName = _context.Person.Where(y => y.Id == moviment.IdPerson).FirstOrDefault().Name;
+            movItem.ResponsibleName = _context.Person.Where(y => y.Id == moviment.IdResponsible).FirstOrDefault().Name;
+            movItem.DataMoviment = moviment.DateMoviment;
+            movItem.Book = _context.Book.Where(y => y.Id == moviment.IdBook).FirstOrDefault().Title;
+            if (moviment.DateDeadline == null || moviment.DateDeadline == new DateTime())
             {
                 movItem.DateDeadline = moviment.DateMaxDeadline;
                 if (moviment.DateMoviment > moviment.DateMaxDeadline)
                 {
                     movItem.Status = "Atrasado";
-
                 }
                 else
                 {
@@ -99,57 +97,51 @@ namespace GerenciadorDeBiblioteca.Controllers
                 movItem.DateDeadline = moviment.DateDeadline;
                 movItem.Status = "Devolvido";
             }
-            var movBooks = _context.MovimentBookList.Where(x => x.IdMoviment == moviment.Id).Select(y => y.IdBook);
-            foreach (var book in movBooks)
-            {
-                MovimentBooks bookItem = new();
-                bookItem.BookName = _context.Book.Where(z => z.Id == Convert.ToInt16(book)).Select(x => x.Title).ToString();
-                movItem.Books.Add(bookItem);
-            }
+
             return View(movItem);
         }
-        public class PeopleModel
-        {
-            public int Id { get; set; }
-            public string Name { get; set; }
-        }
 
-        public class BookModel
-        {
-            public int Id { get; set; }
-            public string Name { get; set; }
-        }
         // GET: Moviments/Create
         public IActionResult Create()
         {
-            List<PeopleModel> dataPeople = new List<PeopleModel>();
-            List<BookModel> dataBooks = new List<BookModel>();
-            var peoples = _context.Person.ToList();
-            var books = _context.Book.ToList();
-            foreach (var person in peoples)
-            {
-                dataPeople.Add(new PeopleModel() { Id = person.Id, Name = person.Name });
-            }
-            foreach (var book in books)
-            {
-                dataBooks.Add(new BookModel() { Id = book.Id, Name = book.Title });
-            }
-
             ViewBag.People = _context.Person.ToList();
-            ViewBag.Books = dataBooks;
+            ViewBag.Books = _context.Book.ToList();
             return View();
         }
+
+
+        public class movimentReturn
+        {
+            public int IdPerson { get; set; }
+            public int IdResponsible { get; set; }
+            public int IdBook { get; set; }
+            public DateTime DateMoviment { get; set; }
+            public DateTime DateDeadline { get; set; }
+        }
+
 
         // POST: Moviments/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,IdBook,IdPerson,IdResponsible,DateMoviment,DateDeadline,DateMaxDeadline,IdState")] Moviment moviment)
+        public async Task<IActionResult> Create([Bind("IdPerson,IdResponsible,IdBook,DateMoviment")] movimentReturn moviment)
         {
+            Moviment movItem = new();
             if (ModelState.IsValid)
             {
-                _context.Add(moviment);
+                var tipe = _context.Person.Where(x => x.Id == moviment.IdPerson).FirstOrDefault().IdTipePerson;   
+                var days = _context.TipePerson.Where(c=>c.Id == tipe).FirstOrDefault().DeadlineDays;
+                DateTime maxDeadline = moviment.DateMoviment.AddDays(days);
+
+                movItem.IdPerson = moviment.IdPerson;
+                movItem.IdResponsible = moviment.IdResponsible;
+                movItem.DateMoviment = moviment.DateMoviment;
+                movItem.DateMaxDeadline = maxDeadline;
+                movItem.IdState = 1;
+                movItem.IdBook = moviment.IdBook;
+
+                _context.Add(movItem);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
@@ -159,6 +151,8 @@ namespace GerenciadorDeBiblioteca.Controllers
         // GET: Moviments/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
+            ViewBag.People = _context.Person.ToList();
+            ViewBag.Books = _context.Book.ToList();
             if (id == null)
             {
                 return NotFound();
@@ -177,23 +171,30 @@ namespace GerenciadorDeBiblioteca.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,IdBook,IdPerson,IdResponsible,DateMoviment,DateDeadline,DateMaxDeadline,IdState")] Moviment moviment)
+        public async Task<IActionResult> Edit(int id, [Bind("IdPerson,IdResponsible,IdBook,DateMoviment,DateDeadline")] Moviment moviment)
         {
-            if (id != moviment.Id)
-            {
-                return NotFound();
-            }
-
+            Moviment movItem = new();
             if (ModelState.IsValid)
             {
                 try
                 {
-                    _context.Update(moviment);
+                    var tipe = _context.Person.Where(x => x.Id == moviment.IdPerson).FirstOrDefault().IdTipePerson;
+                    var days = _context.TipePerson.Where(c => c.Id == tipe).FirstOrDefault().DeadlineDays;
+                    DateTime maxDeadline = moviment.DateMoviment.AddDays(days);
+                    movItem.Id = id;
+                    movItem.IdPerson = moviment.IdPerson;
+                    movItem.IdResponsible = moviment.IdResponsible;
+                    movItem.DateMoviment = moviment.DateMoviment;
+                    movItem.DateMaxDeadline = maxDeadline;
+                    movItem.DateDeadline = moviment.DateDeadline == null ? maxDeadline : moviment.DateDeadline;
+                    movItem.IdState = 1;
+                    movItem.IdBook = moviment.IdBook;
+                    _context.Update(movItem);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!MovimentExists(moviment.Id))
+                    if (!MovimentExists(movItem.Id))
                     {
                         return NotFound();
                     }
