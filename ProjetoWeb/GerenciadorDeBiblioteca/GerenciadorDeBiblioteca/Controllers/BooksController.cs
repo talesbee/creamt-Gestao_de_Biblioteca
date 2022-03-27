@@ -87,7 +87,7 @@ namespace GerenciadorDeBiblioteca.Controllers
         // GET: Books/Create
         public IActionResult Create()
         {
-            ViewBag.People = _context.Person.ToList();
+            ViewBag.People = _context.Person.Where(x=>x.IdTipePerson==1).ToList();
             ViewBag.Category = _context.Category.ToList();
             ViewBag.Sate = _context.BookState.ToList();
             return View();
@@ -112,7 +112,7 @@ namespace GerenciadorDeBiblioteca.Controllers
         // GET: Books/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            ViewBag.People = _context.Person.ToList();
+            ViewBag.People = _context.Person.Where(x => x.IdTipePerson == 1).ToList();
             ViewBag.Category = _context.Category.ToList();
             ViewBag.Sate = _context.BookState.ToList();
             if (id == null)
