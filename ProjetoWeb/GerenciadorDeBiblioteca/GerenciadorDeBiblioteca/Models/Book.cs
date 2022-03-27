@@ -8,6 +8,7 @@ namespace GerenciadorDeBiblioteca.Models
         public int ISBN { get; set; }
         [Display(Name = "Nome")]
         public string Title { get; set; }
+        [Display(Name = "Autor")]
         public int IdAuthor { get; set; }
         [Display(Name = "Editora")]
         public string PublishingCompany { get; set; }
@@ -15,7 +16,11 @@ namespace GerenciadorDeBiblioteca.Models
         public string Edition { get; set; }
         [Display(Name = "Ano")]
         public int  Year { get; set; }
+        [Display(Name = "Categoria")]
+
         public int IdCategory { get; set; }
+        [Display(Name = "Situação")]
+
         public int IdState { get; set; }
     }
 }

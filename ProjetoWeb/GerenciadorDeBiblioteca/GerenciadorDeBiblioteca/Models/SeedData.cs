@@ -126,6 +126,7 @@ namespace GerenciadorDeBiblioteca.SeedData
                         });
                     context.SaveChanges();
                 }
+              
             }
         }
     }

@@ -10,23 +10,13 @@ namespace GerenciadorDeBiblioteca.Models
         [Display(Name = "Responsável")]
         public string ResponsibleName { get; set; }
         [Display(Name = "Data Empréstimo")]
-
         public DateTime DataMoviment { get; set; }
         [Display(Name = "Data Devolução")]
-
         public DateTime? DateDeadline { get; set; }
         [Display(Name = "Situação")]
-
         public string Status { get; set; }
-
-        public List<MovimentBooks> Books { get; set; } = new List<MovimentBooks>();
+        public string Book { get; set; }
 
     }
 
-    public class MovimentBooks
-    {
-        [Display(Name = "Livro")] 
-        public string BookName { get; set; }
-        
-    }
 }

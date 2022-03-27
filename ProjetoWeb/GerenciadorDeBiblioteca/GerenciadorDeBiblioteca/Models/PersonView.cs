@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
 namespace GerenciadorDeBiblioteca.Models
 {
-    public class Person
+    public class PersonView
     {
         public int Id { get; set; }
         [Display(Name = "Nome")]
@@ -25,7 +25,7 @@ namespace GerenciadorDeBiblioteca.Models
         public bool CellPhoneWhatsApp { get; set; }
         [Display(Name = "Tipo")]
 
-        public int IdTipePerson { get; set; }
+        public string IdTipePerson { get; set; }
         [Display(Name = "Situação")]
 
         public bool State { get; set; }
