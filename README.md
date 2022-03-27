@@ -21,10 +21,13 @@ Para tanto, foi utilizado as seguintes ferramentas:
 
 ## Metodologia
 O primeiro passo é projetar o Banco de Dados. Para isso, utilizando uma ferramenta 
-DBDesigner, foi modelado o banco. 
-Foi escolhida essa ferramenta por ela ser de licensa livre e possibilitar a criação de toda 
-documentação do banco de dados de forma automática com o SQLSpy. 
+DBDesigner, foi modelado o banco: https://dbdesigner.page.link/w6Hs9zZtjvk3p1Dj7
 
-Link para a documentação gerada pela ferramenta SQLSpy: https://sqlspy.io/guest/schemas/vw50axrszwq-1fc2b0d6-a153-410d-894c-be7497816881
+## Execução
 
-readme
+Como um dos requisitos era usar SQL Server, em vez de criar um “localbd” temporário, decidi criar um banco. Assim, ao executar o projeto, se for em modo Debug, usará um banco temporário, mas se for Release o código tentará acessar o banco de produção.
+Dessa forma, em modo Release, se faz necessário configurar o arquivo “appsettings.json”, mudando os dados: “Server”, “User Id” e “password”. Em seguida, deve-se, caso ainda não possua o banco criado, rodar o seguinte comando no console do Gerenciador de Pacotes:
+Add-Migration InitialCreate
+Update-Database
+Para facilitar o uso, o banco já é populado com algumas informações, como por exemplo as situações dos Livros, tipos de pessoas, situação do empréstimo e um usuário inicial (Usuário: admin, Senha: 123).
+
