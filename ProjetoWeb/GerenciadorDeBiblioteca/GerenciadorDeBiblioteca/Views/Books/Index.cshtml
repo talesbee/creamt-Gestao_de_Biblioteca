@@ -1,4 +1,4 @@
-﻿@model IEnumerable<GerenciadorDeBiblioteca.Models.Book>
+﻿@model IEnumerable<GerenciadorDeBiblioteca.Models.BookView>
 
 @{
     TempData["Title"] = "Index";
@@ -19,9 +19,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.Title)
             </th>
-            <th>
+            <td>
                 @Html.DisplayNameFor(model => model.IdAuthor)
-            </th>
+            </td>
             <th>
                 @Html.DisplayNameFor(model => model.PublishingCompany)
             </th>

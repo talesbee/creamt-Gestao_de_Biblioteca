@@ -4,9 +4,9 @@
     TempData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<h1>Cadastro de Livros</h1>
 
-<h4>Book</h4>
+<h4>Cadastrar um novo livro</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -24,7 +24,12 @@
             </div>
             <div class="form-group">
                 <label asp-for="IdAuthor" class="control-label"></label>
-                <input asp-for="IdAuthor" class="form-control" />
+                <select asp-for="IdAuthor" class="form-control" id="IdAuthor">
+                    @foreach (var item in ViewBag.People)
+                    {
+                        <option value=@item.Id>@item.Name</option> 
+                    }
+                </select>
                 <span asp-validation-for="IdAuthor" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -44,23 +49,33 @@
             </div>
             <div class="form-group">
                 <label asp-for="IdCategory" class="control-label"></label>
-                <input asp-for="IdCategory" class="form-control" />
+                <select asp-for="IdCategory" class="form-control" id="IdCategory">
+                    @foreach (var item in ViewBag.Category)
+                    {
+                        <option value=@item.Id>@item.Name</option> 
+                    } 
+                </select>
                 <span asp-validation-for="IdCategory" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="IdState" class="control-label"></label>
-                <input asp-for="IdState" class="form-control" />
+                <select asp-for="IdState" class="form-control" id="IdState">
+                    @foreach (var item in ViewBag.Sate)
+                    {
+                        <option value=@item.Id>@item.Name</option> 
+                    }
+                </select>
                 <span asp-validation-for="IdState" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Cadastrar" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">Voltar a lista de livros</a>
 </div>
 
 @section Scripts {
