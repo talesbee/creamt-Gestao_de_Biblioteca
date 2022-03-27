@@ -8,16 +8,12 @@ caracteristicas:
 - Interface Gráfica para computador (.exe), com gerenciamento de Login;
 - Banco de Dados gerenciado por uma API;
 - Pagina Web para monitoramento do Statos de um emprestimo, com gerenciamento de Login;
-- Aplicativo mobile para monitoramento de um emprestimo, com gerenciamento de Login;
 
 Para tanto, foi utilizado as seguintes ferramentas:
-- MVC 5: Para a interface Gráfica (Computador);
+- MVC 5;
 - Projeto Banco de dados: DBDesigner;
-- SQL Server: Banco de dados;
-- Entity Framework 6: Para criar o Banco;
-- DDD: Para a criação dos microserviços (API);
-- React: Criação da Pagina Web;
-- React Native: Criação do Aplicativo Mobile;
+- SQL Server;
+- Entity Framework 6;
 
 ## Metodologia
 O primeiro passo é projetar o Banco de Dados. Para isso, utilizando uma ferramenta 
